@@ -1,4 +1,4 @@
-let arr = [8, 2, 5, 1, 7, 3, 10, 4, 6, 9];
+let arr = ["a",8, 2, 5, 1, 7, 3, 10, 4, 6, 9];
 let randomSortedArray = arr.slice().sort(function() {
     return 0.5 - Math.random();
 });
